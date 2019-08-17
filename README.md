@@ -1,19 +1,7 @@
 <div style="text-align:center">
 
-<h1>Bulma 0.7.1  Webpack 4 Boilerplate</h1>
+<h1>Frontenders Community Nepal</h1>
 
-<table style="border: none;margin:0 auto;">
-  <tr style="border: none;">
-    <td style="border: none;">
-      <img src="https://bulma.io/images/bulma-logo.png" alt="bulma logo" width=80/>
-    </td>
-    <td style="border: none;">
-      <img src="https://github.com/webpack/media/blob/master/logo/icon-square-big.png?raw=true" alt="webpack logo" width=100/>
-    </td>
-  </tr>
-</table>
-
-</div>
 
 ## Prerequisites
 
@@ -31,10 +19,6 @@ git clone
 
 Cd into the project folder
 
-```bash
-cd webpack-bulma
-```
-
 Install yarn modules
 
 ```bash
@@ -44,10 +28,10 @@ yarn install (if you have not installed yarn then: brew install yarn)
 Build production
 
 ```bash
-yarn deploy
+yarn build
 ```
 
-Build version is available in `dist` folder.
+Build version is available in `build` folder.
 
 ## Development
 

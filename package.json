@@ -1,15 +1,15 @@
 {
-  "name": "webpack-bulma",
+  "name": "frontenders-community-nepal",
   "version": "1.0.0",
-  "description": "webpack bulma boilerplate",
+  "description": "Frontenders Community Nepal Official Page",
   "main": "app.js",
+  "homepage": "https://github.com/frontenderscommunitynepal/frontenderscommunitynepal.github.io.git",
   "scripts": {
     "watch": "webpack --watch",
     "start": "webpack-dev-server --env.development --open",
-    "deploy": "webpack --env.production --progress"
+    "build": "webpack --env.production --progress"
   },
-  "repository": "https://github.com/laureenpe/webpack-bulma.git",
-  "author": "laura <laureen.pelaez.isaza@gmail.com>",
+  "author": "Suraj kc",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -33,10 +33,11 @@
     "@glidejs/glide": "^3.2.0",
     "babel": "^6.23.0",
     "babel-preset-env": "^1.7.0",
-    "bulma": "^0.7.1",
-    "font-awesome": "^4.7.0",
+    "bulma": "^0.7.5",
+    "bulma-extensions": "^6.2.7",
     "gh-pages": "^2.0.1",
     "imagemin-webpack-plugin": "^2.1.5",
+    "jquery": "^3.4.1",
     "whatwg-fetch": "^2.0.4"
   }
 }

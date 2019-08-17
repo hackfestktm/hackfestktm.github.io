@@ -17,11 +17,11 @@ module.exports = env => {
         mode: envType,
         entry: ['./src/app.js', 'whatwg-fetch'],
         output: {
-            path: path.resolve(__dirname, 'dist'),
+            path: path.resolve(__dirname, 'build'),
             filename: 'js/script.js'
         },
         devServer: {
-            contentBase: "./dist"
+            contentBase: "./build"
         },
         /*Loaders*/
         module: {
@@ -74,16 +74,20 @@ module.exports = env => {
             new MiniCssExtractPlugin({
                 filename: "css/[name].css",
             }),
-            new CleanWebpackPlugin(["dist"]),
+            new CleanWebpackPlugin(["build"]),
             new HtmlWebpackPlugin({
                 filename: 'index.html',
                 template: "./src/templates/index.html",
-                title: "hello!"
+                title: "Frontenders Community Nepal"
             }),
             new CopyWebpackPlugin([{
                 from: "src/templates",
                 to: ""
             }]),
+            new webpack.ProvidePlugin({
+                $: 'jquery',
+                jQuery: 'jquery'
+              }),
             new ImageminPlugin({
                 test: /\.(jpe?g|png|gif|svg)$/i,
                 disable: !isProduction, // Disable during development
