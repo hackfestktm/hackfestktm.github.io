@@ -17,11 +17,11 @@ module.exports = env => {
         mode: envType,
         entry: ['./src/app.js', 'whatwg-fetch'],
         output: {
-            path: path.resolve(__dirname, 'build'),
+            path: path.resolve(__dirname, './'),
             filename: 'js/script.js'
         },
         devServer: {
-            contentBase: "./build"
+            contentBase: "././"
         },
         /*Loaders*/
         module: {
@@ -74,7 +74,7 @@ module.exports = env => {
             new MiniCssExtractPlugin({
                 filename: "css/[name].css",
             }),
-            new CleanWebpackPlugin(["build"]),
+            new CleanWebpackPlugin(["./"]),
             new HtmlWebpackPlugin({
                 filename: 'index.html',
                 template: "./src/templates/index.html",
