@@ -80,7 +80,6 @@ module.exports = env => {
                 template: "./src/templates/index.html",
                 title: "Frontenders Community Nepal"
             }),
-      
             new CopyWebpackPlugin([{
                 from: "src/templates",
                 to: ""

@@ -17,11 +17,13 @@ a {
   }
 }
 
-.navbar.is-transparent {
-  background-color: transparent;
-}
 
 .navbar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
   &.is-transparent {
     background-color: transparent;
   }

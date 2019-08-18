@@ -1,25 +1,31 @@
-.hero {
-  &:before {
-    content: "";
-    width: 100%;
-    height: 660px;
-    z-index: -1000;
-    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
-    transform-origin: left bottom;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-transform: skew(0deg, -15deg);
-    -moz-transform: skew(0deg, -15deg);
-    -ms-transform: skew(0deg, -15deg);
-    -o-transform: skew(0deg, -15deg);
-    transform: skew(0deg, -15deg);
-  }
+.hero-home {
+  
+    &:before{
+      content: "";
+      width: 100%;
+      height: 660px;
+      z-index: -1000;
+      // background: url('https://ghost.org/images/docs/bg-home.svg') no-repeat,linear-gradient(60deg,#562db5,#19afc9);
+    // background-size: cover;
+      // background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+      background: linear-gradient(to right, #377fea 20%, #653dea) #377fea;
+      transform-origin: left bottom;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-transform: skew(0deg, -15deg);
+      -moz-transform: skew(0deg, -15deg);
+      -ms-transform: skew(0deg, -15deg);
+      -o-transform: skew(0deg, -15deg);
+      transform: skew(0deg, -15deg);
+    }
+
+ 
 
   .featured {
     display: flex;
     flex-direction: column;
-    margin-top: 28px;
+    margin-top: 80px;
     padding: 0 12px;
 
     @media screen and (min-width: 992px) {
