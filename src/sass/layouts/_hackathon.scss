@@ -33,4 +33,15 @@
       }
     }
   }
+
+  .faq{
+    .column{
+      >div{
+        margin-bottom: 22px;
+        h6{
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
 }
