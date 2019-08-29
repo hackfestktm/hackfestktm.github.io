@@ -6,7 +6,7 @@
 
   .featured {
     position: relative;
-    top: -100px;
+    margin-top: -100px;
   }
 
   .about {
@@ -44,4 +44,9 @@
       }
     }
   }
+}
+
+
+.is-bg-teal{
+  background-color: rgba(#03a9f4,.1);
 }

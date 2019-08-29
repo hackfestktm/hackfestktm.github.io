@@ -35,6 +35,8 @@
     "babel-preset-env": "^1.7.0",
     "bulma": "^0.7.5",
     "bulma-extensions": "^6.2.7",
+    "bulma-helpers": "^0.3.8",
+    "bulma-timeline": "^3.0.4",
     "gh-pages": "^2.0.1",
     "imagemin-webpack-plugin": "^2.1.5",
     "jquery": "^3.4.1",
