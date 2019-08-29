@@ -8,6 +8,7 @@
     position: relative;
     margin-top: -100px;
   }
+  
 
   .about {
       justify-content: space-between;
@@ -30,6 +31,18 @@
           border-right: 2px solid #466cc0;
           transform: rotate(45deg);
         }
+      }
+    }
+  }
+
+  .organizers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    >a{
+  
+      &:not(:last-child){
+        margin-right: 48px;
       }
     }
   }
