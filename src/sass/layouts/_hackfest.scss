@@ -9,11 +9,54 @@
 
   .featured {
     @include medium {
-      margin-top: -100px;
+      //   margin-top: -100px;
     }
 
     @include large {
-      margin-top: -200px;
+      //   margin-top: -200px;
     }
+  }
+
+  .about {
+    justify-content: space-between;
+    .objectives {
+      padding-left: 20px;
+      li {
+        position: relative;
+        &:not(:last-child) {
+          margin-bottom: 8px;
+        }
+        &:after {
+          content: "";
+          background-color: transparent;
+          position: absolute;
+          left: -16px;
+          top: 5px;
+          width: 5px;
+          border-bottom: 2px solid #466cc0;
+          height: 11px;
+          border-right: 2px solid #466cc0;
+          transform: rotate(45deg);
+        }
+      }
+    }
+  }
+
+  .partners {
+    text-align: center;
+    &-list {
+      > a {
+        display: inline-block;
+        vertical-align: middle;
+
+        &:not(:last-child) {
+          margin-right: 24px;
+        }
+      }
+    }
+  }
+
+  .schedule {
+    background-color: rgba(#03a9f4, 0.1);
   }
 }
