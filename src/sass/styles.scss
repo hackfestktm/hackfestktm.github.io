@@ -1,46 +1,5 @@
-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  &.box {
-    box-shadow: none;
-    border: 1px solid rgb(235, 235, 235);
-    transition: all 0.2s ease-in;
-    &:hover,
-    &:focus {
-      box-shadow: rgba(168, 182, 191, 0.6) 0px 4px 20px 0px;
-    }
-  }
-}
-
-
-.navbar {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  &.is-transparent {
-    background-color: transparent;
-  }
-
-  .navbar-brand{
-      img{
-          width: inherit;
-      }
-
-      span{
-          display: block;
-      }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .media-content {
-    overflow-x: initial;
-  }
-}
+// @media screen and (max-width: 768px) {
+//   .media-content {
+//     overflow-x: initial;
+//   }
+// }

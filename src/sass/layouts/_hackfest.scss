@@ -7,16 +7,6 @@
     }
   }
 
-  .featured {
-    @include medium {
-      //   margin-top: -100px;
-    }
-
-    @include large {
-      //   margin-top: -200px;
-    }
-  }
-
   .about {
     justify-content: space-between;
     .objectives {
@@ -58,5 +48,21 @@
 
   .schedule {
     background-color: rgba(#03a9f4, 0.1);
+  }
+
+  .faq {
+    .column {
+      > div {
+        margin-bottom: 22px;
+        h6 {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+
+  .sponsorship {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }

@@ -1,45 +1,55 @@
-
 .card {
-    &.is-horizontal {
-      display: flex;
-      flex-grow: 0;
+  &.is-horizontal {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    .card-image {
+      flex: 3;
       flex-shrink: 1;
-  
-      .card-image {
-        flex: 3;
-        flex-shrink: 1;
-  
-        .image {
-          display: block;
-          position: relative;
-          overflow: hidden;
-          height: 100%;
-          width: 100%;
-          img {
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-          }
-        }
-      }
-  
-      .card-content {
-        flex: 3;
-      }
-  
-      &.box {
+
+      .image {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
         img {
-          border-top-left-radius: 6px;
-          border-bottom-left-radius: 6px;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
         }
       }
     }
-  
-    &:not(.is-horizontal) {
+
+    .card-content {
+      flex: 3;
+    }
+
+    &.box {
       img {
         border-top-left-radius: 6px;
-        border-top-right-radius: 6px;
+        border-bottom-left-radius: 6px;
       }
     }
   }
-  
+
+  &:not(.is-horizontal) {
+    img {
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+    }
+  }
+}
+
+a {
+  &.box {
+    box-shadow: none;
+    border: 1px solid rgb(235, 235, 235);
+    transition: all 0.2s ease-in;
+    &:hover,
+    &:focus {
+      box-shadow: rgba(168, 182, 191, 0.6) 0px 4px 20px 0px;
+    }
+  }
+}

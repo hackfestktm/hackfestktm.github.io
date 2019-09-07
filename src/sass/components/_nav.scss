@@ -1,0 +1,24 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 8px;
+  left: 0;
+  right: 0;
+  &.is-transparent {
+    background-color: transparent;
+  }
+
+  .navbar-brand {
+    img {
+      width: inherit;
+    }
+
+    span {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    padding: 0 1.5rem;
+  }
+}

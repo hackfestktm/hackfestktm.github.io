@@ -3,10 +3,9 @@ $widescreen: 1024px;
 $fullhd: 1152px;
 
 @import "~bulma/bulma.sass";
-@import "~bulma-helpers/bulma-helpers.sass";
+@import "~bulma-timeline";
 @import "./helpers/index";
 @import "./mixins/index";
+@import "./base/index";
 @import "./layouts/index";
-@import "styles";
 @import "./components/index";
-@import "~bulma-timeline";
