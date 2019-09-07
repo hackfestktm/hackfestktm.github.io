@@ -8,16 +8,15 @@
     position: relative;
     margin-top: -100px;
   }
-  
 
   .about {
-      justify-content: space-between;
+    justify-content: space-between;
     .objectives {
-        padding-left: 20px;
+      padding-left: 20px;
       li {
         position: relative;
-        &:not(:last-child){
-            margin-bottom: 8px;
+        &:not(:last-child) {
+          margin-bottom: 8px;
         }
         &:after {
           content: "";
@@ -35,23 +34,22 @@
     }
   }
 
-  .organizers{
+  .organizers {
     display: flex;
     align-items: center;
     justify-content: center;
-    >a{
-  
-      &:not(:last-child){
+    > a {
+      &:not(:last-child) {
         margin-right: 48px;
       }
     }
   }
 
-  .faq{
-    .column{
-      >div{
+  .faq {
+    .column {
+      > div {
         margin-bottom: 22px;
-        h6{
+        h6 {
           margin-bottom: 8px;
         }
       }
@@ -59,7 +57,6 @@
   }
 }
 
-
-.is-bg-teal{
-  background-color: rgba(#03a9f4,.1);
+.is-bg-teal {
+  background-color: rgba(#03a9f4, 0.1);
 }
