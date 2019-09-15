@@ -63,6 +63,14 @@
     }
   }
 
+  .worshops-columns{
+    .card{
+      &:not(:last-child){
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+
   .sponsorship {
     padding-top: 0;
     padding-bottom: 0;
