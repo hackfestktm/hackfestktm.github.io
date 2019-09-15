@@ -389,18 +389,19 @@
   <!-- Workshops -->
   <div id="workshops" class="content-tab">
     <section class="section is-small">
-      <div class="container">
+      <div class="container worshops-columns">
         <div class="card">
           <div class="card-content">
             <div class="media">
               <div class="media-left">
                 <figure class="image is-48x48">
-                  <img src="https://miro.medium.com/max/1000/1*ilC2Aqp5sZd1wi0CopD1Hw.png" alt="Flutter">
+                  <img src="/images/hackfest/flutter.png" alt="Flutter">
                 </figure>
               </div>
               <div class="media-content">
-                <p class="title is-4">Flutter Animations</p>
-                <p class="subtitle is-6">Flutter Nepal</p>
+                <p class="title is-5">Flutter Animations</p>
+                <p class="subtitle is-6"> <a href="https://www.facebook.com/flutterNP/" target="_blank">Flutter
+                    Nepal</a> </p>
               </div>
             </div>
 
@@ -415,10 +416,12 @@
                     sponsored by <a href="https://www.facebook.com/makuracreations" target="_blank">Markura
                       Creations</a> and <a href="https://www.facebook.com/gdgkathmandu">GDG Kathmandu</a>.</p>
 
-                      <br />
+                  <br />
 
-                      
-                      <a class="button is-info" href="https://www.facebook.com/pg/flutterNP/photos/?tab=album&album_id=515740512495464&ref=page_internal" target="_blank">View Gallery</a>
+
+                  <a class="button is-info"
+                    href="https://www.facebook.com/pg/flutterNP/photos/?tab=album&album_id=515740512495464&ref=page_internal"
+                    target="_blank">View Gallery</a>
                 </div>
                 <div class="column is-one-third">
                   <h4 class="title is-6 has-margin-bottom-7">Date</h4>
@@ -427,6 +430,43 @@
 
                   <h4 class="title is-6 has-margin-bottom-7">Venue</h4>
                   <a href="https://goo.gl/maps/TpLvWh2NMgWenj1s6" target="_blank">Neophere, New Baneshwor, Kathmandu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="/images/hackfest/flutter.png" alt="Flutter">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-5">Getting started with Flutter</p>
+                <p class="subtitle is-6"> <a href="https://www.facebook.com/flutterNP/" target="_blank">Flutter
+                    Nepal</a> </p>
+              </div>
+            </div>
+
+            <div class="content">
+              <div class="columns">
+                <div class="column is-two-thirds-tablet">
+
+                  <p>We are conducting our second workshop for the students of NCIT college.
+                    The event is sponsored by <a href="https://www.facebook.com/gdgkathmandu">GDG Kathmandu</a>.</p>
+
+                </div>
+                <div class="column is-one-third">
+                  <h4 class="title is-6 has-margin-bottom-7">Date</h4>
+                  <p>September 21, 2019</p>
+                  <br />
+
+                  <h4 class="title is-6 has-margin-bottom-7">Venue</h4>
+                  <a href="https://goo.gl/maps/taCixMuCiJwkpKcw6" target="_blank">Nepal College of Information
+                    Technology, Balkumari, Patan</a>
                 </div>
               </div>
             </div>
@@ -941,8 +981,12 @@
   <script type="text/javascript" src="js/script.js"></script>
 
   <script>
+    // Switch tabs in Hack Fest page
+
 
     function openHackFestTab(evt, tabName) {
+      
+     
       var i, x, tablinks;
       x = document.getElementsByClassName("content-tab");
       for (i = 0; i < x.length; i++) {
