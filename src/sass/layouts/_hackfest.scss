@@ -1,10 +1,12 @@
 .hackfestktm {
   .hero-hackathon {
     background: url("https://ghost.org/images/docs/bg-home.svg") no-repeat, linear-gradient(60deg, #562db5, #19afc9);
-    h1 {
+    .title {
       margin-top: 24px;
-      font-weight: 600;
+      padding: 1.6rem 0 0 0;
     }
+
+  
   }
 
   .about {
