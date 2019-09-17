@@ -1,14 +1,14 @@
 .hackfestktm {
   .hero-hackathon {
-    background: url("https://ghost.org/images/docs/bg-home.svg") no-repeat, linear-gradient(60deg, #562db5, #19afc9);
+    background: url("https://ghost.org/images/docs/bg-home.svg") no-repeat,
+      linear-gradient(60deg, #562db5, #19afc9);
     .title {
       margin-top: 24px;
-      padding: 1.6rem 0 0 0;
     }
   }
 
-  .featured{
-    .card{
+  .featured {
+    .card {
       height: 100%;
     }
   }
@@ -67,42 +67,43 @@
     }
   }
 
-  .worshops-columns{
-    .card{
-      &:not(:last-child){
+  .worshops-columns {
+    .card {
+      &:not(:last-child) {
         margin-bottom: 1.5rem;
       }
     }
   }
 
-  .about-tab{
+  .about-tab {
     max-width: 660px;
     margin: 0 auto;
   }
 
   .sponsorship {
-    background: url('/images/hackfest/sponsorshop-bg.jpg');
+    background: url("/images/hackfest/sponsorshop-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 
-    &:after{
-      content: '';
-      background: url(https://ghost.org/images/docs/bg-home.svg) no-repeat, linear-gradient(60deg, #562db5, #19afc9);
+    &:after {
+      content: "";
+      background: url(https://ghost.org/images/docs/bg-home.svg) no-repeat,
+        linear-gradient(60deg, #562db5, #19afc9);
       position: absolute;
       top: 0;
       right: 0;
       left: 0;
       bottom: 0;
-      opacity: .6;
+      opacity: 0.6;
     }
 
-    >div{
+    > div {
       position: relative;
       z-index: 2;
     }
 
-    &-content{
+    &-content {
       padding: 3rem 0;
       text-align: center;
       max-width: 600px;
