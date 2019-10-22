@@ -50,6 +50,12 @@
         }
       }
     }
+
+    &__sub {
+      > h5 {
+        margin-bottom: 0.7rem;
+      }
+    }
   }
 
   .schedule {
@@ -109,5 +115,11 @@
       max-width: 600px;
       margin: 0 auto;
     }
+  }
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 350px;
   }
 }
