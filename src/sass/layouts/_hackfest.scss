@@ -1,4 +1,20 @@
 .hackfestktm {
+
+.prizes{
+  .column{
+    >h1{
+      margin-bottom: 0;
+      >span{
+        font-size: 16px;
+      }
+    }
+    >span{
+      font-size: 24px;
+      letter-spacing: 5px;
+    }
+  }
+}
+
   .hero-hackathon {
     background: url("https://ghost.org/images/docs/bg-home.svg") no-repeat,
       linear-gradient(60deg, #562db5, #19afc9);
