@@ -1225,6 +1225,11 @@ bulma-helpers@^0.3.8:
   resolved "https://registry.yarnpkg.com/bulma-helpers/-/bulma-helpers-0.3.8.tgz#9383f9f4b1cc5604b9b540fc26996294345f95f2"
   integrity sha512-SZBkcRCKogzYduo9GduLMtYg2SJ7RT0hRWypWXLs48lmqKxiPgj4gWlt4TzUq7fwzhbmVbtFyfWdwvWgIYCKMA==
 
+bulma-steps@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/bulma-steps/-/bulma-steps-2.2.1.tgz#39cc353ae049701c60aa7c74a27bf56b8463cb1a"
+  integrity sha512-fD50xz49zPVAfsRNcwBR7rd1lgNdKrcsIXAfVMwMH9A6iDhauOTkiEJOxXj4xZuW/CI6JpV+fCgj5uIuN1lP3Q==
+
 bulma-timeline@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/bulma-timeline/-/bulma-timeline-3.0.4.tgz#494f458098a06dcf8dcc7fe8f2f158b63d1d1ef2"
