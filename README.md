@@ -44,20 +44,3 @@ yarn start
 ```
 
 This brings up demo website on [http://localhost:8080](http://localhost:8080).
-
-For demo purposes I've copied the [bulma blog template](https://dansup.github.io/bulma-templates/templates/blog.html).
-
-## Folder structure
-
-<pre>
-webpack-bulma/
-├── src/
-│   ├── sass
-│   │   └── main.scss
-│   ├── templates/index.html
-│   └── app.js  # main webpack entry file
-├── .gitignore
-├── package.json
-├── README.md
-└── webpack.config.js
-</pre>
